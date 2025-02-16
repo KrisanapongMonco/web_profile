@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
   <link rel="stylesheet" href="style.css" />
   <title>Personal Portfolio</title>
@@ -205,63 +206,97 @@
     </div>
   </section>
 
-  <section class="career" id="about">
-    <div class="career__jobs">
-      <h3>Work Experience</h3>
-      <div class="job">
-        <i class="ri-code-s-slash-line"></i>
-        <div class="job__info">
-          <h5>Full Stack Developer at <span>Freelance</span></h5>
-          <p>2023 - Present</p>
-          <ul>
-            <li>Developing full-stack web applications</li>
-            <li>Working with React, Node.js, and Python</li>
-          </ul>
-        </div>
-      </div>
-      <div class="job">
-        <i class="ri-graduation-cap-line"></i>
-        <div class="job__info">
-          <h5>Education</h5>
-          <p>Bachelor of Engineering - Computer Engineering</p>
-          <p>Suranaree University of Technology</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="career__awards">
-      <h3>Certifications</h3>
-      <div class="award">
-        <div>
-          <i class="ri-database-2-line"></i>
-          <div class="award__info">
-            <h5>Oracle SQL Developer</h5>
-            <p>Oracle</p>
+  <section class="career py-5" id="about">
+    <div class="container ">
+      <div class="row g-0">
+        <!-- Work Experience -->
+        <div class="col-lg-4 p-4 border-end">
+          <div class="d-flex align-items-center mb-4">
+            <div class="icon-box me-3">
+              <i class="ri-briefcase-4-line"></i>
+            </div>
+            <h3 class="h2 mb-0">Work Experience</h3>
+          </div>
+          <div class="card hover-card mb-0">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <i class="ri-code-s-slash-line icon-circle me-3"></i>
+                <h5 class="card-title mb-0">Full Stack Developer</h5>
+              </div>
+              <p class="text-muted small mb-2">Freelance • 2023 - Present</p>
+              <ul class="list-unstyled mb-0">
+                <li>• Developing full-stack web applications</li>
+                <li>• Working with React, Node.js, and Python</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <a href="#"><i class="ri-external-link-line"></i></a>
-      </div>
 
-      <div class="award">
-        <div>
-          <i class="ri-shield-check-line"></i>
-          <div class="award__info">
-            <h5>Thailand Cyber Top Talent 21 & 22</h5>
-            <p>National Cyber Security Agency (Thailand)</p>
+        <!-- Education -->
+        <div class="col-lg-4 p-4 border-end">
+          <div class="d-flex align-items-center mb-4">
+            <div class="icon-box me-3">
+              <i class="ri-graduation-cap-line"></i>
+            </div>
+            <h3 class="h2 mb-0">Education</h3>
+          </div>
+          <div class="card hover-card mb-0">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <i class="ri-building-line icon-circle me-3"></i>
+                <div>
+                  <h5 class="card-title mb-1">Bachelor of Information Science</h5>
+                  <p class="text-muted small mb-0">Digital Technology</p>
+                </div>
+              </div>
+              <p class="text-muted small mb-0">Suranaree University of Technology</p>
+              <p class="text-muted small">2021 - Present</p>
+            </div>
           </div>
         </div>
-        <a href="#"><i class="ri-external-link-line"></i></a>
-      </div>
 
-      <div class="award">
-        <div>
-          <i class="ri-wifi-line"></i>
-          <div class="award__info">
-            <h5>Introduction to IoT</h5>
-            <p>Cisco</p>
+        <!-- Certifications -->
+        <div class="col-lg-4 p-4">
+          <div class="d-flex align-items-center mb-4">
+            <div class="icon-box me-3">
+              <i class="ri-award-line"></i>
+            </div>
+            <h3 class="h2 mb-0">Certifications</h3>
+          </div>
+          <div class="card hover-card mb-3">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <i class="ri-database-2-line icon-circle me-3"></i>
+                <div>
+                  <h5 class="card-title mb-1">Oracle SQL Developer</h5>
+                  <p class="text-muted small mb-0">Oracle</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card hover-card mb-3">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <i class="ri-shield-check-line icon-circle me-3"></i>
+                <div>
+                  <h5 class="card-title mb-1">Thailand Cyber Top Talent 21 & 22</h5>
+                  <p class="text-muted small mb-0">National Cyber Security Agency (Thailand)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card hover-card mb-0">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <i class="ri-wifi-line icon-circle me-3"></i>
+                <div>
+                  <h5 class="card-title mb-1">Introduction to IoT</h5>
+                  <p class="text-muted small mb-0">Cisco</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <a href="#"><i class="ri-external-link-line"></i></a>
       </div>
     </div>
   </section>
@@ -276,7 +311,7 @@
   <footer class="footer">
     <div class="footer__brand">
       <a href="#">Krisanapong.</a>
-      <p>© 2024 Krisanapong Jaruenjanporn</p>
+      <p style="margin-bottom: 0rem;">© 2024 Krisanapong Jaruenjanporn</p>
     </div>
     <div class="footer__links">
       <a href="#home">Home</a>
