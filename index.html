@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Personal Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar sticky">
+    <a href="#" class="navbar__logo"><i class="ri-code-s-slash-line"></i> Logo.</a>
+
+    <div class="navbar__menu">
+      <a href="#home" class="navbar__link">Home</a>
+      <a href="#projects" class="navbar__link">Projects</a>
+      <a href="#skills" class="navbar__link">Skills</a>
+      <a href="#about" class="navbar__link">About</a>
+    </div>
+
+    <div class="navbar__actions">
+      <div class="navbar__location">
+        <h5>THAILAND, NAKHON RATCHASIMA</h5>
+        <p>Local Time</p>
+      </div>
+      <button class="btn">Get a Quote</button>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <img src="assets/profile.png" alt="Profile Image" class="hero__image" />
+      <h2>Hello! I'm Krisanapong</h2>
+    </div>
+
+    <div class="hero__intro">
+      <h3>Full Stack Developer</h3>
+      <p>
+        Experienced Full Stack Developer with expertise in React, Node.js, and Python. Skilled in developing web
+        applications with focus on clean code and optimal performance.
+      </p>
+      <div class="hero__actions">
+        <button class="btn">Work With Me</button>
+        <button class="btn btn--secondary">See My Portfolio</button>
+      </div>
+    </div>
+
+    <div class="hero__socials">
+      <a href="https://www.linkedin.com/in/krisanapong-jaruenjanporn"><i class="ri-linkedin-box-line"></i></a>
+      <a href="#"><i class="ri-instagram-line"></i></a>
+      <a href="#"><i class="ri-dribbble-line"></i></a>
+      <a href="#"><i class="ri-youtube-line"></i></a>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="skills__desc">
+      <h3>Technical Skills & Experience</h3>
+      <p>
+        Proficient in modern web technologies including React, Node.js, Python, and cloud platforms. Strong background
+        in both frontend and backend development.
+      </p>
+
+      <div class="skills__actions">
+        <button class="btn">Work With Me</button>
+        <button class="btn btn--secondary">Send Email</button>
+      </div>
+    </div>
+
+    <div class="skills__stats">
+      <i class="ri-code-s-slash-line"></i>
+      <div class="skill__info">
+        <h5>Frontend</h5>
+        <p>React.js, Tailwind CSS, Sass/SCSS, Bootstrap, TypeScript, jQuery, Next.js, Vite, React Native</p>
+      </div>
+      <i class="ri-terminal-box-line"></i>
+      <div class="skill__info">
+        <h5>Backend</h5>
+        <p>JavaScript (Node.js), PHP, C# (.NET Core), Express.js, RESTful APIs, JWT</p>
+      </div>
+      <i class="ri-database-2-line"></i>
+      <div class="skill__info">
+        <h5>Database</h5>
+        <p>MySQL, Microsoft SQL Server, PostgreSQL, Firebase, MongoDB</p>
+      </div>
+      <i class="ri-git-branch-line"></i>
+      <div class="skill__info">
+        <h5>DevOps & Tools</h5>
+        <p>Git, AWS, Docker</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase" id="projects">
+    <div class="showcase__header">
+      <h3>I Can Help You With:</h3>
+      <button class="btn">See My Work</button>
+    </div>
+
+    <div class="showcase_categories">
+      <section class="category">
+        <div class="category__header">
+          <div class="category__title">
+            <i class="ri-database-2-line"></i>
+            <h4>Backend Development</h4>
+          </div>
+          <div class="category__desc">
+            <p>
+              Building robust backend systems and APIs with Java, ASP.NET, and SQL databases
+              for efficient data management and business logic implementation.
+            </p>
+            <a href="#"><i class="ri-share-circle-line"></i></a>
+          </div>
+        </div>
+
+        <div class="category__projects">
+          <div class="project-card">
+            <img src="assets/dormitory.png" alt="Dormitory Management" class="project-card__image" />
+            <div class="project-card__info">
+              <h5>Dormitory Management System</h5>
+              <p>Java (OOP) & MySQL</p>
+            </div>
+            <p class="project-card__desc">
+              Created a dormitory management system with interfaces for users and admins,
+              streamlining registration, room booking, and administrative tasks. Implemented
+              MySQL database for efficient data management.
+            </p>
+            <button class="btn">View Project</button>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/job-platform.png" alt="Job Platform" class="project-card__image" />
+            <div class="project-card__info">
+              <h5>Job Application Platform</h5>
+              <p>ASP.NET & SQL Server</p>
+            </div>
+            <p class="project-card__desc">
+              Designed a job application platform with user and admin interfaces.
+              Implemented robust API services using ASP.NET and secure data storage with SQL Server.
+              Applied Bootstrap for responsive design with Xamarin.
+            </p>
+            <button class="btn">View Project</button>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/utility.png" alt="Utility Monitoring" class="project-card__image" />
+            <div class="project-card__info">
+              <h5>Dormitory Utility Monitor</h5>
+              <p>React, Firebase & IoT</p>
+            </div>
+            <p class="project-card__desc">
+              Created a web app to monitor dormitory utility usage including water and electricity.
+              Integrated IoT sensors with C to retrieve real-time utility consumption data through Thing Speak.
+            </p>
+            <button class="btn">View Project</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="category">
+        <div class="category__header">
+          <div class="category__title">
+            <i class="ri-smartphone-line"></i>
+            <h4>Mobile Development</h4>
+          </div>
+          <div class="category__desc">
+            <p>
+              Developing mobile applications with React Native and Firebase, focusing on
+              user experience and real-time data synchronization.
+            </p>
+            <a href="#"><i class="ri-share-circle-line"></i></a>
+          </div>
+        </div>
+
+        <div class="category__projects">
+          <div class="project-card">
+            <img src="assets/fitness.png" alt="Fitness App" class="project-card__image" />
+            <div class="project-card__info">
+              <h5>Mobile Fitness Application</h5>
+              <p>React Native & Firebase</p>
+            </div>
+            <p class="project-card__desc">
+              Built a mobile fitness app featuring step counting using GPS and personalized
+              food recommendations. Used Firebase for real-time data storage and user management.
+            </p>
+            <button class="btn">View Project</button>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/social.png" alt="Social Media App" class="project-card__image" />
+            <div class="project-card__info">
+              <h5>Social Media Application</h5>
+              <p>Swift & Firebase</p>
+            </div>
+            <p class="project-card__desc">
+              Developed an Instagram-like social media app enabling photo sharing, user interactions,
+              and profile management. Integrated Firebase for authentication and real-time data.
+            </p>
+            <button class="btn">View Project</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="career" id="about">
+    <div class="career__jobs">
+      <h3>Work Experience</h3>
+      <div class="job">
+        <i class="ri-code-s-slash-line"></i>
+        <div class="job__info">
+          <h5>Full Stack Developer at <span>Freelance</span></h5>
+          <p>2023 - Present</p>
+          <ul>
+            <li>Developing full-stack web applications</li>
+            <li>Working with React, Node.js, and Python</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <i class="ri-graduation-cap-line"></i>
+        <div class="job__info">
+          <h5>Education</h5>
+          <p>Bachelor of Engineering - Computer Engineering</p>
+          <p>Suranaree University of Technology</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="career__awards">
+      <h3>Certifications</h3>
+      <div class="award">
+        <div>
+          <i class="ri-database-2-line"></i>
+          <div class="award__info">
+            <h5>Oracle SQL Developer</h5>
+            <p>Oracle</p>
+          </div>
+        </div>
+        <a href="#"><i class="ri-external-link-line"></i></a>
+      </div>
+
+      <div class="award">
+        <div>
+          <i class="ri-shield-check-line"></i>
+          <div class="award__info">
+            <h5>Thailand Cyber Top Talent 21 & 22</h5>
+            <p>National Cyber Security Agency (Thailand)</p>
+          </div>
+        </div>
+        <a href="#"><i class="ri-external-link-line"></i></a>
+      </div>
+
+      <div class="award">
+        <div>
+          <i class="ri-wifi-line"></i>
+          <div class="award__info">
+            <h5>Introduction to IoT</h5>
+            <p>Cisco</p>
+          </div>
+        </div>
+        <a href="#"><i class="ri-external-link-line"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h5>Got a Project?</h5>
+    <h2>Let's Work Together!</h2>
+    <button class="btn">Send Message</button>
+    <p>Email: <span>krisanapongdt@gmail.com</span></p>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <a href="#">Krisanapong.</a>
+      <p>© 2024 Krisanapong Jaruenjanporn</p>
+    </div>
+    <div class="footer__links">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+    </div>
+  </footer>
+</body>
+
+</html>
